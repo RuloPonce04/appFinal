@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#BAD6F6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Curso Android"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:textSize="55dp"
+        android:layout_marginBottom="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario/Correo"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/EdtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="alguien@correo.com"
+        android:textColorHint="#959191"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/EdtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu Contraseña"
+        android:password="true"
+        android:textColorHint="#959191"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        android:textSize="20dp"
+        android:padding="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/BtnAnonimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anonimo"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+
+        />
+
+</LinearLayout>

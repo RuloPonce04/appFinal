@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Prototipo1</string>
+    <string name="title_activity_menu_principal">Menu_Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Raúl Ponce López</string>
+    <string name="nav_header_subtitle">RaulponceLopez2002@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesion</string>
+
+    <string name="menu_home">Cambiar foto</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Video</string>
+    <string name="menu_divicion">Division</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

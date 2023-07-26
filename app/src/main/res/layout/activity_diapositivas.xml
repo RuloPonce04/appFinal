@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    tools:context=".ui.home.Diapositivas">
+
+
+    <Button
+        android:id="@+id/btnLoadPdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Cargar PDF" />
+
+    <Spinner
+        android:id="@+id/SeleccionSesiones"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_below="@+id/btnLoadPdf"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="169dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <!-- Usamos un FrameLayout en lugar de un PDFView para facilitar la visualización del archivo -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnLoadPdf"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="30dp">
+
+        <!-- Aquí se mostrará el PDF usando PDFView -->
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
